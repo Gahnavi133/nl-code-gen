@@ -2,7 +2,7 @@ import streamlit as st
 from openai_helper import generate_code
 from code_runner import safe_exec
 
-st.title("💻 Prompt → Python Code Generator")
+st.title("Prompt → Python Code Generator")
 
 user_input = st.text_area("Describe your task:")
 if st.button("Generate Code"):
