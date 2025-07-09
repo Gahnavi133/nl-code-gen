@@ -1,6 +1,6 @@
 import openai
 
-client = openai.OpenAI(api_key="sk-...")  # Replace with your OpenAI API key
+client = openai.OpenAI(api_key="sk-...")  # Should Replace with our OpenAI API key
 
 def generate_code(prompt):
     system_prompt = "You're a Python coding assistant. Write clean, correct code only. Then explain it in 2-3 sentences."
